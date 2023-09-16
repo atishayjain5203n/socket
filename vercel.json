@@ -10,5 +10,11 @@
         "src": "/(.*)",
         "dest": "socket_chat/asgi.py"
       }
+    ],
+    "urls": [
+        {
+            "src": "/(.*)",
+            "dest": "socket_chat/asgi.py"
+          }
     ]
 }
