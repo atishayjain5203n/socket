@@ -1,0 +1,1 @@
+web gunicorn socket_chat.asgi:application --log-file -

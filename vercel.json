@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "socket_chat/asgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "socket_chat/asgi.py"
+      }
+    ]
+}
