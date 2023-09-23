@@ -122,6 +122,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+WSGI_APPLICATION = "socket_chat.wsgi.application"
 ASGI_APPLICATION = "socket_chat.asgi.application"
 CHANNEL_LAYERS = {
     "default": {
